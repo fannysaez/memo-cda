@@ -12,10 +12,10 @@ Mémo personnel de vocabulaire technique pour la formation Concepteur Développe
 
 ## 📑 Table des matières
 
-1. [🔧 Git / GitHub](vocabulaire-cda/git-github.md)
-2. [🗄️ SQL / PostgreSQL](vocabulaire-cda/sql-postgresql.md)
-3. [🟨 JavaScript](vocabulaire-cda/javascript.md)
-4. [🎨 CSS / Thèmes](vocabulaire-cda/css-themes.md)
+1. [Git / GitHub](vocabulaire-cda/git-github.md)
+2. [SQL / PostgreSQL](vocabulaire-cda/sql-postgresql.md)
+3. [JavaScript](vocabulaire-cda/javascript.md)
+4. [CSS / Thèmes](vocabulaire-cda/css-themes.md)
 
 ---
 
