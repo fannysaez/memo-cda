@@ -196,3 +196,29 @@
 | `[data-theme="dark"] { --bg: #111; --text: #fff; }` | Redéfinit les mêmes variables quand l'attribut est présent (thème sombre) |
 | `@media (prefers-color-scheme: dark) { ... }` | Applique un thème selon la préférence système, en pur CSS |
 | **Design token** | Nom donné aux variables qui représentent des choix de design (couleurs, espacements, rayons...) réutilisés dans toute l'app |
+
+### Architecture à 3 fichiers (Exemple Dossier `/styles`)
+
+Une architecture propre consiste à séparer le stockage du thème, la structure générale, et le point d'entrée global.
+
+#### 1. `variables.css`
+*Rôle : Stocke uniquement les Design Tokens (le dictionnaire des couleurs et thèmes).*
+
+```css
+/* Définition du thème par défaut (Clair) */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f4f4f9;
+  --text-main: #222222;
+  --text-muted: #666666;
+  --accent-color: #00b0f0;
+}
+
+/* Redéfinition pour le thème Sombre */
+[data-theme="dark"] {
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-main: #ffffff;
+  --text-muted: #aaaaaa;
+  --accent-color: #33c2ff;
+}
