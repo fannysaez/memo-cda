@@ -3,7 +3,7 @@
 ## 🔧 GIT / GITHUB
 
 | Commande | Définition | À quoi ça sert |
-|---|---|---|
+| --- | --- | --- |
 | `git init` | Initialise un dépôt Git | Démarrer le suivi de version dans un dossier |
 | `git clone <url>` | Copie un dépôt distant en local | Récupérer un projet existant |
 | `git status` | Affiche l'état des fichiers | Voir ce qui a changé / est en attente |
@@ -37,8 +37,9 @@
 ## 🗄️ SQL / POSTGRESQL (terminal `psql`)
 
 ### Commandes terminal `psql`
+
 | Commande | Utilité |
-|---|---|
+| --- | --- |
 | `psql -U user -d dbname` | Se connecter à une base |
 | `\l` | Lister les bases de données |
 | `\c dbname` | Se connecter à une base |
@@ -48,8 +49,9 @@
 | `\q` | Quitter psql |
 
 ### Langage SQL
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | `SELECT` | Sélectionner des données |
 | `FROM` | Préciser la table source |
 | `WHERE` | Filtrer les lignes |
@@ -61,8 +63,9 @@
 | `DROP TABLE` | Supprimer une table |
 
 ### Clés & contraintes
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | **PRIMARY KEY** | Identifiant unique de chaque ligne |
 | **FOREIGN KEY** | Clé qui référence la clé primaire d'une autre table (lien entre tables) |
 | **UNIQUE** | Impose une valeur non dupliquée |
@@ -73,8 +76,9 @@
 | **Contrainte** | Règle imposée sur une colonne/table pour garantir l'intégrité des données |
 
 ### Relations & jointures
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | **INNER JOIN** | Ne garde que les lignes correspondant dans les deux tables |
 | **LEFT JOIN** | Garde toutes les lignes de la table de gauche + correspondances |
 | **RIGHT JOIN** | Garde toutes les lignes de la table de droite + correspondances |
@@ -84,8 +88,9 @@
 | **Table de jointure (pivot)** | Table intermédiaire pour gérer le many-to-many |
 
 ### Divers
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | **GROUP BY** | Regrouper des lignes pour agréger (COUNT, SUM...) |
 | **HAVING** | Filtrer après un GROUP BY |
 | **ORDER BY** | Trier les résultats |
@@ -100,8 +105,9 @@
 ## 🟨 JAVASCRIPT
 
 ### Bases
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | `var` | Déclaration de variable (ancienne, portée fonction) — à éviter |
 | `let` | Variable modifiable, portée bloc |
 | `const` | Variable non réassignable, portée bloc |
@@ -116,8 +122,9 @@
 | **Hoisting** | Les déclarations sont "remontées" en haut du contexte à l'exécution |
 
 ### Fonctions
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | **Function declaration** | `function nom() {}` — déclarée classiquement |
 | **Function expression** | `const f = function() {}` — stockée dans une variable |
 | **Arrow function** | `const f = () => {}` — syntaxe courte, sans son propre `this` |
@@ -130,8 +137,9 @@
 | **Fonction anonyme** | Fonction sans nom |
 
 ### Conditions & boucles
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | `if / else if / else` | Exécution conditionnelle |
 | `switch` | Teste une valeur contre plusieurs cas (`case`) |
 | `case` | Une valeur possible dans un switch |
@@ -143,8 +151,9 @@
 | `for...in` | Boucle sur les clés d'un objet |
 
 ### Tableaux & objets
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | `.map()` | Transforme chaque élément, renvoie un nouveau tableau |
 | `.filter()` | Garde les éléments qui respectent une condition |
 | `.reduce()` | Réduit le tableau à une seule valeur (ex: somme) |
@@ -154,10 +163,36 @@
 | **Méthode** | Fonction stockée dans un objet |
 
 ### Asynchrone
+
 | Terme | Définition |
-|---|---|
+| --- | --- |
 | **Promise** | Objet représentant une valeur future (résolue ou rejetée) |
 | `async` | Marque une fonction comme asynchrone (renvoie une Promise) |
 | `await` | Attend la résolution d'une Promise avant de continuer |
 | `.then() / .catch()` | Gérer le succès / l'échec d'une Promise |
 | **Event loop** | Mécanisme qui gère l'exécution asynchrone en JS |
+
+---
+
+## 🎨 CSS / THÈMES
+
+### Variables CSS (custom properties)
+
+| Terme | Définition |
+| --- | --- |
+| `:root` | Sélecteur ciblant la racine du document (`<html>`) — portée globale |
+| `--nom-variable` | Déclare une variable CSS (custom property) |
+| `var(--nom-variable)` | Utilise la valeur d'une variable CSS |
+| `var(--nom, repli)` | Variable avec valeur de secours si elle n'est pas définie |
+| **Custom property** | Nom technique des variables CSS ; suit les règles de cascade/héritage comme les autres propriétés |
+| **Cascade / héritage** | Une variable définie sur `:root` est accessible partout, sauf si un sélecteur plus spécifique la redéfinit |
+
+### Créer un thème (clair/sombre) dans `globals.css`
+
+| Terme | Définition |
+| --- | --- |
+| `globals.css` | Fichier CSS global (souvent dans Next.js) où l'on définit `:root` et les styles de base |
+| `:root { --bg: #fff; --text: #111; }` | Définit les valeurs par défaut (thème clair) |
+| `[data-theme="dark"] { --bg: #111; --text: #fff; }` | Redéfinit les mêmes variables quand l'attribut est présent (thème sombre) |
+| `@media (prefers-color-scheme: dark) { ... }` | Applique un thème selon la préférence système, en pur CSS |
+| **Design token** | Nom donné aux variables qui représentent des choix de design (couleurs, espacements, rayons...) réutilisés dans toute l'app |
