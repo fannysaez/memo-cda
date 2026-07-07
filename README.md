@@ -22,7 +22,7 @@ Mémo personnel de vocabulaire technique pour la formation Concepteur Développe
 ## 📂 Structure du projet
 
 ```text
-memoVocab-cda/
+memo/
 ├── README.md
 └── vocabulaire-cda/
     ├── git-github.md
