@@ -50,5 +50,6 @@ Une architecture propre consiste à séparer le stockage du thème, la structure
 
 ---
 
-[![◀ Précédent](https://img.shields.io/badge/◀-Pr%C3%A9c%C3%A9dent-2E86AB?style=flat-square)](javascript.md)
-[![🏠 Sommaire](https://img.shields.io/badge/🏠-Sommaire-555555?style=flat-square)](../README.md)
+<p align="center">
+  <a href="javascript.md"><img src="https://img.shields.io/badge/-PR%C3%89C%C3%89DENT-2E86AB?style=for-the-badge" alt="Précédent"></a> &nbsp;&nbsp; <a href="../README.md"><img src="https://img.shields.io/badge/-RETOUR-2E86AB?style=for-the-badge" alt="Retour"></a>
+</p>

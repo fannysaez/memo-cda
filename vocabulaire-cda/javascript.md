@@ -70,6 +70,6 @@
 
 ---
 
-[![◀ Précédent](https://img.shields.io/badge/◀-Pr%C3%A9c%C3%A9dent-2E86AB?style=flat-square)](sql-postgresql.md)
-[![🏠 Sommaire](https://img.shields.io/badge/🏠-Sommaire-555555?style=flat-square)](../README.md)
-[![Suivant ▶](https://img.shields.io/badge/Suivant-%E2%96%B6-2E86AB?style=flat-square)](css-themes.md)
+<p align="center">
+  <a href="sql-postgresql.md"><img src="https://img.shields.io/badge/-PR%C3%89C%C3%89DENT-2E86AB?style=for-the-badge" alt="Précédent"></a> &nbsp;&nbsp; <a href="css-themes.md"><img src="https://img.shields.io/badge/-SUIVANT-2E86AB?style=for-the-badge" alt="Suivant"></a>
+</p>

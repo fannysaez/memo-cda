@@ -28,4 +28,6 @@ memoVocab-cda/
 
 ---
 
-[![Suivant ▶](https://img.shields.io/badge/Suivant-%E2%96%B6-2E86AB?style=flat-square)](vocabulaire-cda/git-github.md)
+<p align="center">
+  <a href="vocabulaire-cda/git-github.md"><img src="https://img.shields.io/badge/-COMMENCER-2E86AB?style=for-the-badge" alt="Commencer"></a>
+</p>
