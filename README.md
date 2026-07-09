@@ -32,4 +32,4 @@
 
 ***
 
-<p align="center"><a href="/broken/pages/l9AlO0qbG8u10hXB1WMZ"><img src="https://img.shields.io/badge/-RETOUR-2E86AB?style=for-the-badge" alt="Retour"></a>    <a href="vocabulaire-cda/sql-postgresql.md"><img src="https://img.shields.io/badge/-SUIVANT-2E86AB?style=for-the-badge" alt="Suivant"></a></p>
+<p align="center">    <a href="vocabulaire-cda/sql-postgresql.md"><img src="https://img.shields.io/badge/-SUIVANT-2E86AB?style=for-the-badge" alt="Suivant"></a></p>
