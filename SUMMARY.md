@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Untitled](README.md)
-
 ## Vocabulaire CDA
 
-* [🔧 Git / GitHub](vocabulaire-cda/git-github.md)
+* [🔧 Git / GitHub](README.md)
 * [🗄️ SQL / PostgreSQL](vocabulaire-cda/sql-postgresql.md)
 * [🟨 JavaScript](vocabulaire-cda/javascript.md)
 * [🎨 CSS / Thèmes](vocabulaire-cda/css-themes.md)
