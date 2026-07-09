@@ -2,9 +2,9 @@
 
 # Mémo Vocabulaire CDA
 
-Mémo personnel de vocabulaire technique pour la formation Concepteur Développeur d'Applications (CDA) : Git/GitHub, SQL/PostgreSQL, JavaScript, CSS et Bootstrap.
+Mémo personnel de vocabulaire technique pour la formation Concepteur Développeur d'Applications (CDA) : Git/GitHub, SQL/PostgreSQL, JavaScript, CSS, Bootstrap et Tailwind CSS.
 
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap"> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
 
 </div>
 
@@ -17,6 +17,7 @@ Mémo personnel de vocabulaire technique pour la formation Concepteur Développe
 3. [JavaScript](vocabulaire-cda/javascript.md)
 4. [CSS / Thèmes](vocabulaire-cda/css-themes.md)
 5. [Bootstrap](vocabulaire-cda/bootstrap.md)
+6. [Tailwind CSS](vocabulaire-cda/tailwindcss.md)
 
 ---
 
@@ -30,7 +31,8 @@ memo/
     ├── sql-postgresql.md
     ├── javascript.md
     ├── css-themes.md
-    └── bootstrap.md
+    ├── bootstrap.md
+    └── tailwindcss.md
 ```
 
 ---
