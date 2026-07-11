@@ -183,6 +183,4 @@ Exemple perso ([chocolatierBakery-restaurant](https://github.com/fannysaez/choco
 
 ***
 
-<p align="center">
-  <a href="bootstrap.md"><img src="https://img.shields.io/badge/-PR%C3%89C%C3%89DENT-2E86AB?style=for-the-badge" alt="Précédent"></a> &nbsp;&nbsp; <a href="php.md"><img src="https://img.shields.io/badge/-SUIVANT-2E86AB?style=for-the-badge" alt="Suivant"></a>
-</p>
+<p align="center"><a href="bootstrap.md"><img src="https://img.shields.io/badge/-PR%C3%89C%C3%89DENT-2E86AB?style=for-the-badge" alt="Précédent"></a>    <a href="php.md"><img src="https://img.shields.io/badge/-SUIVANT-2E86AB?style=for-the-badge" alt="Suivant"></a></p>
