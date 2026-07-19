@@ -11,3 +11,8 @@
 * [🅱️ Bootstrap](vocabulaire-cda/bootstrap.md)
 * [🌊 Tailwind CSS](vocabulaire-cda/tailwindcss.md)
 * [🐘 PHP](vocabulaire-cda/php.md)
+* [📐 UML](vocabulaire-cda/uml.md)
+* [🧩 POO](vocabulaire-cda/poo.md)
+* [🔷 TypeScript](vocabulaire-cda/typescript.md)
+* [🅰️ Angular](vocabulaire-cda/angular.md)
+* [🗃️ BDD / Merise](vocabulaire-cda/bdd-merise.md)
