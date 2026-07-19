@@ -1,7 +1,7 @@
 # 🔧 Git / GitHub
 
 | Commande                 | Définition                                           | À quoi ça sert                                        |
-| ------------------------ | ----------------------------------------------------- | ------------------------------------------------------ |
+| ------------------------ | ---------------------------------------------------- | ----------------------------------------------------- |
 | `git init`               | Initialise un dépôt Git                              | Démarrer le suivi de version dans un dossier          |
 | `git clone <url>`        | Copie un dépôt distant en local                      | Récupérer un projet existant                          |
 | `git status`             | Affiche l'état des fichiers                          | Voir ce qui a changé / est en attente                 |
@@ -21,7 +21,7 @@
 | `git stash`              | Met de côté des modifs non commitées                 | Changer de contexte sans perdre son travail           |
 | `git reset`              | Annule des commits (garde ou pas les fichiers)       | Revenir en arrière localement                         |
 | `git revert`             | Annule un commit en créant un nouveau commit inverse | Annuler proprement sans réécrire l'historique         |
-| `.gitignore`             | Fichier listant ce que Git doit ignorer              | Éviter de versionner node_modules, .env, etc.         |
+| `.gitignore`             | Fichier listant ce que Git doit ignorer              | Éviter de versionner node\_modules, .env, etc.        |
 | **HEAD**                 | Pointeur vers le commit courant                      | Repère "où on en est"                                 |
 | **Staging area (index)** | Zone tampon avant le commit                          | Choisir précisément quoi commiter                     |
 | **Repository (repo)**    | Dossier suivi par Git                                | Le projet versionné                                   |
@@ -30,8 +30,6 @@
 | **Merge conflict**       | Git ne sait pas choisir entre deux versions          | À résoudre manuellement                               |
 | **Clone vs Fork**        | Clone = copie locale / Fork = copie sur GitHub       | Deux façons de récupérer un projet                    |
 
----
+***
 
-<p align="center">
-  <a href="../README.md"><img src="https://img.shields.io/badge/-RETOUR-2E86AB?style=for-the-badge" alt="Retour"></a> &nbsp;&nbsp; <a href="sql-postgresql.md"><img src="https://img.shields.io/badge/-SUIVANT-2E86AB?style=for-the-badge" alt="Suivant"></a>
-</p>
+<p align="center"><a href="../"><img src="https://img.shields.io/badge/-RETOUR-2E86AB?style=for-the-badge" alt="Retour"></a>    <a href="sql-postgresql.md"><img src="https://img.shields.io/badge/-SUIVANT-2E86AB?style=for-the-badge" alt="Suivant"></a></p>
